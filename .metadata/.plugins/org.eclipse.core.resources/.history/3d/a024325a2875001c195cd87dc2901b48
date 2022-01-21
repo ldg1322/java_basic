@@ -1,0 +1,31 @@
+package accessmodifier;
+
+public class Warrior {// 정의부, 실행은 Main에서 할 예정임.
+	
+	public int hp;
+	public int strangth;
+	public String name;
+	public int lv;
+	public int money;
+	
+	// 생성자를 만들어주시되, name만 사용자에게 입력 받고
+	// 나머지는 hp 20,str 3, lv 1, money 0을
+	// 자동으로 입력받도록 해 주세요.
+	
+	public Warrior(String n) {
+		hp = 20;
+		strangth = 3;
+		name = n;
+		lv = 1;
+		money = 0;
+	}
+		public void getInfo() {
+			System.out.println("체력 : " + hp +
+					           ", 힘 : " + strangth + 
+					           ", 이름 : " + name + 
+					           ", 레밸 : " + lv + 
+					           ", 돈 : " + money);
+		
+
+	}
+}
