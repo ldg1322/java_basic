@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="MAX_SPEED"/>
+		<item key="selection" value="컴퓨터가 낸 것"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="컴퓨터 값"/>
+			<item value="내 값"/>
 			<item value="speed"/>
 			<item value="gas"/>
 			<item value="wolf"/>
@@ -21,10 +23,10 @@
 			<item value="grade"/>
 			<item value="atk"/>
 			<item value="Priest"/>
-			<item value="사제"/>
-			<item value="전사"/>
 		</list>
 		<list key="replacehistory">
+			<item value="컴퓨터가 낸 것"/>
+			<item value="내가 낸 것"/>
 			<item value="MAX_SPEED"/>
 			<item value="MAX_GAS"/>
 			<item value="monster"/>
@@ -38,8 +40,6 @@
 			<item value="Warlock"/>
 			<item value="Warock"/>
 			<item value="흑마법사"/>
-			<item value="사제"/>
-			<item value="Priest"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
